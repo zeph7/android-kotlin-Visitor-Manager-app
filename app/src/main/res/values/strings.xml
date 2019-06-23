@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">testapp</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="verify_details">VERIFY DETAILS</string>
+    <string name="otp_send_to_phone_number">OTP send to /*phone number*/</string>
+    <string name="enter_otp">ENTER OTP</string>
+    <string name="verify">VERIFY AND PROCEED</string>
+    <string name="register">Register</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        tools:context=".activities.MainActivity">
+
+    <android.support.v7.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/cardProfilePic"
+            app:cardCornerRadius="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorEditText"
+            android:layout_marginTop="110dp">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/profilePicID"
+                android:background="@drawable/image"/>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number"
+            android:ems="10"
+            android:layout_centerHorizontal="true"
+            android:textSize="11dp"
+            android:textColor="@color/colorText"
+            android:layout_marginTop="280dp"
+            android:id="@+id/phoneNumber"
+            android:fontFamily="@font/oxygen"/>
+
+    <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardPhoneNum"
+            app:cardBackgroundColor="@color/colorEditText"
+            android:layout_marginTop="300dp"
+            app:cardCornerRadius="3dp"
+            android:layout_centerHorizontal="true">
+        <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:textColor="@android:color/background_light"
+                android:background="@android:color/transparent"
+                android:padding="12dp"
+                android:ems="10"
+                android:id="@+id/userPhoneNumber"/>
+    </android.support.v7.widget.CardView>
+
+    <Button
+            android:text="@string/register"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="380dp"
+            android:fontFamily="@font/oxygen"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/round_edge_button"
+            android:id="@+id/buttonRegister"/>
+
+</RelativeLayout>
